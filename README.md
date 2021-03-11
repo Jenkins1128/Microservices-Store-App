@@ -51,7 +51,7 @@ Tables - apple, samsung
 1. Store - Web app that retrieves information on the device types from Samsung and Apple microservices to displays them on Java server pages.
 2. Eureka server - A discovery server responsible for holding instances of mircoservice clients and providing easier navigation.
 3. Samsung - Extracts the list JSON Device objects gathered from samsung persitence.
-4. Samnsung2 - Extra copy of Samsung to test client-side load balancing.
+4. Samsung2 - Extra copy of Samsung to test client-side load balancing.
 5. Apple - Extracts the list JSON Device objects gathered from apple persitence.
 6. Apple persitence - Gathers information from MySQL server on apple devices providing a list of JSON Device objects. 
 7. Samsung persistence - Gathers information from MySQL server on samsung devices providing a list of JSON Device objects.
