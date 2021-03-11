@@ -46,25 +46,25 @@ Tables - apple, samsung
 
 <img width="571" alt="Screen Shot 2021-03-10 at 11 54 09 PM" src="https://user-images.githubusercontent.com/35716724/110753833-eabd9700-81fb-11eb-97f1-bb8600d0ff0d.png">
 
-## Overview on the Mircoservice architecture 
+## Overview on the Microservice architecture 
 
 1. Store - Web app that retrieves information on the device types from Samsung and Apple microservices to displays them on Java server pages.
-2. Eureka server - A discovery server responsible for holding instances of mircoservice clients and providing easier navigation.
-3. Samsung - Extracts the list JSON Device objects gathered from samsung persitence.
+2. Eureka server - A discovery server responsible for holding instances of microservice clients and providing easier navigation.
+3. Samsung - Extracts the list of JSON Device objects gathered from Samsung persistence.
 4. Samsung2 - Extra copy of Samsung to test client-side load balancing.
-5. Apple - Extracts the list JSON Device objects gathered from apple persitence.
-6. Apple persitence - Gathers information from MySQL server on apple devices providing a list of JSON Device objects. 
-7. Samsung persistence - Gathers information from MySQL server on samsung devices providing a list of JSON Device objects.
+5. Apple - Extracts the list of JSON Device objects gathered from Apple persistence.
+6. Apple persistence - Gathers information from MySQL server on apple devices providing a list of JSON Device objects. 
+7. Samsung persistence - Gathers information from MySQL server on Samsung devices providing a list of JSON Device objects.
 
 ### Extract microservices and import into IDEs
 
 1. Import each microservice folder except into a separate Intellij Maven project.
-2. Import Store microservice into Eclispe.
+2. Import Store microservice into Eclipse.
 
 ### How to run Store 
 
-3. Start Eureka server in IntelliJ.
-4. Start Store in Eclispe.
+3. Start the Eureka server in IntelliJ.
+4. Start Store in Eclipse.
 5. Start remaining microservices in IntelliJ.
 6. Go to the [Eureka server page](http://localhost:8761). You should have the following 5 applications running below:
 <img width="1065" alt="Screen Shot 2021-03-11 at 8 08 03 AM" src="https://user-images.githubusercontent.com/35716724/110817243-f41d2280-8240-11eb-98e8-2958fc83af40.png">
