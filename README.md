@@ -1,6 +1,6 @@
 # Microservices - Store App
 
-This application consists of several microservices that build up a small Store web application retrieving information on devices and displaying the information on java server pages.
+This application consists of several microservices that build up a small store web application to retrieve information on devices and displaying the information on Java Server Pages.
 
 Isaiah Jenkins
 ## Technologies
@@ -16,11 +16,11 @@ Isaiah Jenkins
 * MySQL (Server)
 * MySQL Workbench (visual database design tool for MySQL database)
 * Jersey (JAX-RS)
-* Tomcat Embed Jasper
-* Tomcat Servlet API
+* Tomcat Embed Jasper (JSP file parser)
+* Tomcat Servlet API 
 * Javax Servlet API
-* JSP
-* JSTL
+* JSP (Java Server Page)
+* JSTL (JavaServer Pages Standard Tag Library)
 * Maven (Dependency Injection)
 * Eclispe (IDE, Java EE version 2020-12)
 * IntelliJ (IDE, IDEA CE)
@@ -32,7 +32,9 @@ Isaiah Jenkins
 3. [MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
 4. [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
-## Set up MySQL Server
+## Set up schema and tables on MySQL Workbench
+
+Note: Make sure to start your MySQL server on your computer.
 
 Schema - Devices
 
@@ -53,8 +55,6 @@ Tables - apple, samsung
 5. Apple - Extracts the list JSON Device objects gathered from apple persitence.
 6. Apple persitence - Gathers information from MySQL server on apple devices providing a list of JSON Device objects. 
 7. Samsung persistence - Gathers information from MySQL server on samsung devices providing a list of JSON Device objects.
-
-
 
 ### Extract microservices and import into IDEs
 
